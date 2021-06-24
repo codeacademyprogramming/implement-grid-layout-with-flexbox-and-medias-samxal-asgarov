@@ -1,0 +1,232 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+    text-decoration: none;
+    border:  solid none;
+    
+    background-color: rgba(red, green, blue, 1.75);
+    position: fixed;
+    
+    width: 1600px;
+    height: 50px;
+    z-index:auto;
+    
+
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 24px;
+  
+   margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.main{
+   border: 1px solid white;
+   width: 1600px;
+   height: 700px;
+  
+   background-image: url("./pizza1.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.center{
+    text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   color: white;
+}
+#see{
+    border: 1px solid black;
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 14px;
+    position: absolute;
+    bottom: 30%;
+    left: 41.5%;
+}
+#open{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    position: absolute;
+    bottom: 9%;
+}
+.themenu{
+    border: 1px solid black;
+    width: 1600px;
+    height: 700px;
+    
+    background-image: url("./menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+.pizzas{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+}
+.pizzas >div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+}
+.price >div{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+    border-radius: 20px 3px 6px 8px;
+
+
+}
+#themenu{
+    margin-left: 30%;
+   
+}
+.about{
+    border: 1px solid black;
+    width: 1600px;
+    height: 1400px;
+    background-color: #f8aaa5!important
+    
+    
+    
+}
+#about{
+   margin-left: 30%;
+}
+#abo{
+    border: solid none;
+    width: 900px;
+    margin-left: 10%;
+    font-size: 20PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#chef{
+   font-weight: 500;
+   font-size: 18px;
+   font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 15%; 
+  
+ 
+}
+
+#img{
+    border-radius: 50%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 30%
+    
+}
+.src img{
+    position: absolute;
+   top: 250%;
+   left: 10%;
+   
+    
+}
+.div h1{
+   
+    position:absolute;
+    top: 320%;
+    left: 10%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 8%;
+    top: 330%;
+}
+.contain >.row{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.contain1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+    top: 330%;
+}
+.contain1 >.row1{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.end{
+    border: 1px solid none;
+    background-color: rgb(97, 95, 95);
+     color: white;
+     width: 1600px;
+     position: absolute;
+     top: 480%;
+    
+}
+#ender{
+    text-align: center;
+    font-family: monospace;
+    
+}
+.end p{
+    margin-left: 15%;
+   font-family: monospace;
+    font-size: 12px;
+}
+.end h2{
+    margin-left: 15%;
+    font-family: monospace;
+}
+input{
+    padding: 15px;
+    width: 900px;
+    height: 40px;
+    margin-left: 15%;
+}
+button{
+    padding: 15px;
+    width: 900px;
+    height: 40px;
+    margin-left: 15%;
+    color: white;
+    background-color: grey;
+    font-size: 19px;
+}
