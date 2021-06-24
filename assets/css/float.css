@@ -1,0 +1,31 @@
+html {
+    font-size: 24px;
+}
+
+img {
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.division {
+    float: right;
+    color: red;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.cute-dog-image {
+    shape-outside: circle();
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}

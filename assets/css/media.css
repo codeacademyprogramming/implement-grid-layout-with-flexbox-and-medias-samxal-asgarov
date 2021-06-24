@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.box {
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 900px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-1 {
+        width: calc(100% / 12);
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/* 
+    when writing media queries with max
+    width you should use max width from top with
+    greater values to bottom lesser values 
+*/
+
+/* 500px ve ashaghisi */
+/* 500px ve 900px arasi */
+/* 900px ve 1200px arasi */
+/* 1200px uzu yuxari */
